@@ -1,26 +1,30 @@
 {
-    "name": "picqer/exact-php-client",
+    "name": "combinedcreatives/exact-php-client",
     "type": "library",
-    "description": "A PHP Client for the Exact API",
+    "description": "A PHP Client for the Exact API. Fork by @combinedcreatives",
     "keywords": [
         "api",
         "php",
         "exact"
     ],
-    "homepage": "http://github.com/picqer/exact-php-client",
+    "homepage": "http://github.com/combinedcreatives/exact-php-client",
     "license": "MIT",
     "authors": [
         {
             "name": "Stephan Groen",
             "email": "info@picqer.com"
+        },
+        {
+            "name": "Vincent van Kekerix",
+            "email": "vincent@combinedcreatives.com"
         }
     ],
     "require": {
-        "php": ">=5.5.0",
-        "guzzlehttp/guzzle": "~6.0"
+        "php": "^7.2.5",
+        "guzzlehttp/guzzle": "~7.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^4.8.36"
+        "phpunit/phpunit": "^8.5.5"
     },
     "autoload": {
         "psr-4": {
